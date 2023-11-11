@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/sddd",
+  "textures": {
+    "all": "doz_in_maincraft:block/sddd",
+    "particle": "doz_in_maincraft:block/sddd",
+    "0": "doz_in_maincraft:block/sddd"
+  },
+  "render_type": "solid"
+}

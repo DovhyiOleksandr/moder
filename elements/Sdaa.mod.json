@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.LOG#0"
+      },
+      {
+        "value": "CUSTOM:IronPlates"
+      },
+      {
+        "value": "Blocks.LOG#0"
+      },
+      {
+        "value": "CUSTOM:Bolts"
+      },
+      {
+        "value": "CUSTOM:CaseShootingRange2"
+      },
+      {
+        "value": "CUSTOM:Bolts"
+      },
+      {
+        "value": "Blocks.LOG#0"
+      },
+      {
+        "value": "CUSTOM:IronPlates"
+      },
+      {
+        "value": "Blocks.LOG#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CaseShootingRange3"
+    },
+    "name": "sdaa",
+    "namespace": "mod"
+  }
+}

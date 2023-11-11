@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "doz_in_maincraft:grenade_40_mm"
+    },
+    "title": {
+      "translate": "advancements.booom.title"
+    },
+    "description": {
+      "translate": "advancements.booom.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "booom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "doz_in_maincraft:grenade_40_mm"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "doz_in_maincraft:cheers_cartridges"
+}

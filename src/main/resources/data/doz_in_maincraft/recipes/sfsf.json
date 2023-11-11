@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doz_in_maincraft:revolver_clip_1"
+    },
+    {
+      "item": "doz_in_maincraft:patron_10mm"
+    }
+  ],
+  "result": {
+    "item": "doz_in_maincraft:revolver_clip",
+    "count": 1
+  }
+}

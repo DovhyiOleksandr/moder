@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "doz_in_maincraft:block/magicpine_planks"
+  },
+  "render_type": "solid"
+}

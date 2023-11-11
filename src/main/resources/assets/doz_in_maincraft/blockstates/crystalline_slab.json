@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "doz_in_maincraft:block/crystalline_slab"
+    },
+    "type=top": {
+      "model": "doz_in_maincraft:block/crystalline_slab_top"
+    },
+    "type=double": {
+      "model": "doz_in_maincraft:block/crystalline_slab_full"
+    }
+  }
+}

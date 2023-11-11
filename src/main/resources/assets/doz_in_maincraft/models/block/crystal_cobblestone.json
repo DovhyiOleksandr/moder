@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doz_in_maincraft:block/fg",
+    "up": "doz_in_maincraft:block/fg",
+    "north": "doz_in_maincraft:block/fg",
+    "east": "doz_in_maincraft:block/fg",
+    "south": "doz_in_maincraft:block/fg",
+    "west": "doz_in_maincraft:block/fg",
+    "particle": "doz_in_maincraft:block/fg"
+  },
+  "render_type": "solid"
+}

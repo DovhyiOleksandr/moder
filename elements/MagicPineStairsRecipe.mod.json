@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagicPinePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagicPinePlanks"
+      },
+      {
+        "value": "CUSTOM:MagicPinePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagicPinePlanks"
+      },
+      {
+        "value": "CUSTOM:MagicPinePlanks"
+      },
+      {
+        "value": "CUSTOM:MagicPinePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagicPineStairs"
+    },
+    "name": "magic_pine_stairs_recipe",
+    "namespace": "mod"
+  }
+}

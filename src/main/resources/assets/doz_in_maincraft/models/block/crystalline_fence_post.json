@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "doz_in_maincraft:block/crystalline_planks",
+    "particle": "doz_in_maincraft:block/crystalline_planks"
+  },
+  "render_type": "solid"
+}

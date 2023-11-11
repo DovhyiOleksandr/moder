@@ -1,0 +1,7 @@
+{
+  "parent": "doz_in_maincraft:custom/tt",
+  "textures": {
+    "0": "doz_in_maincraft:block/tt",
+    "particle": "doz_in_maincraft:item/tt"
+  }
+}

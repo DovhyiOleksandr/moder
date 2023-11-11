@@ -1,0 +1,43 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "spas12",
+    "customModelName": "spas12:default",
+    "name": "SPAS12",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Sad"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 500,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "SPAS12PriIspolzovaniiStrielkovoghoPriedmieta"
+    },
+    "useCondition": {
+      "name": "SPAS12MozhnoIspolzovatDalnoboinyiPriedmiet"
+    },
+    "bulletPower": 1.5,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "doz_in_maincraft:custom/a2",
+  "textures": {
+    "missing": "doz_in_maincraft:block/nachalka",
+    "particle": "doz_in_maincraft:item/nachalka"
+  }
+}

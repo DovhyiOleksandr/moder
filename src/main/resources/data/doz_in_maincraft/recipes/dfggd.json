@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "doz_in_maincraft:piece_tin"
+    },
+    "1": {
+      "item": "doz_in_maincraft:piece_tin"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:sleeve_10_mm",
+    "count": 4
+  }
+}

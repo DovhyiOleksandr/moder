@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doz_in_maincraft:piece_tin"
+    },
+    {
+      "item": "doz_in_maincraft:copper_ingot"
+    },
+    {
+      "item": "doz_in_maincraft:electrical_tape"
+    },
+    {
+      "item": "doz_in_maincraft:piece_tin"
+    }
+  ],
+  "result": {
+    "item": "doz_in_maincraft:picklock",
+    "count": 4
+  }
+}

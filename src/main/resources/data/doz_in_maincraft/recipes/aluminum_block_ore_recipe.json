@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doz_in_maincraft:aluminum_block"
+    }
+  ],
+  "result": {
+    "item": "doz_in_maincraft:aluminum_ingot",
+    "count": 9
+  }
+}

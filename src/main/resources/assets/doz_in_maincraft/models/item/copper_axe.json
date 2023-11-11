@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "doz_in_maincraft:item/copper_axe"
+  }
+}

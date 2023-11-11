@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "doz_in_maincraft:steel_barrel"
+    },
+    "1": {
+      "item": "doz_in_maincraft:revolver_drum"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "doz_in_maincraft:steal_ingot"
+    },
+    "4": {
+      "item": "minecraft:gunpowder"
+    },
+    "5": {
+      "item": "doz_in_maincraft:steal_ingot"
+    },
+    "8": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:magnum",
+    "count": 1
+  }
+}

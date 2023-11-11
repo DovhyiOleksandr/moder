@@ -1,0 +1,7 @@
+{
+  "parent": "doz_in_maincraft:custom/bison1",
+  "textures": {
+    "0": "doz_in_maincraft:block/pp19",
+    "particle": "doz_in_maincraft:item/pp19"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -15267554,
+    "grass_color": -15267554,
+    "sky_color": -15267554,
+    "fog_color": -15267554,
+    "water_color": -15267554,
+    "water_fog_color": -15267554
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "zombie",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "doz_in_maincraft:bloody_claw",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "doz_in_maincraft:bloody_carcass",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "cave_spider",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "doz_in_maincraft:crystal_desert_tree"
+    ],
+    []
+  ]
+}

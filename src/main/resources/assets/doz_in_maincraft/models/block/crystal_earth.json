@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doz_in_maincraft:block/dsgg",
+    "up": "doz_in_maincraft:block/dsgg",
+    "north": "doz_in_maincraft:block/dsgg",
+    "east": "doz_in_maincraft:block/dsgg",
+    "south": "doz_in_maincraft:block/dsgg",
+    "west": "doz_in_maincraft:block/dsgg",
+    "particle": "doz_in_maincraft:block/dsgg"
+  },
+  "render_type": "solid"
+}

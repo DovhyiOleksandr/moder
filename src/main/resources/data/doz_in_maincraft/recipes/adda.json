@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "doz_in_maincraft:steel_barrel"
+    },
+    "3": {
+      "item": "doz_in_maincraft:magic_pine_log"
+    },
+    "4": {
+      "item": "doz_in_maincraft:steal_block"
+    },
+    "5": {
+      "item": "doz_in_maincraft:tin_ingot"
+    },
+    "6": {
+      "item": "doz_in_maincraft:steal_ingot"
+    },
+    "7": {
+      "item": "minecraft:redstone_block"
+    },
+    "8": {
+      "item": "doz_in_maincraft:steal_ingot"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:weapon_workbench",
+    "count": 1
+  }
+}

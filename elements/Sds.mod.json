@@ -1,0 +1,111 @@
+{
+  "_fv": 47,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_stop_increased_danger",
+          "text": {
+            "fixedValue": "STOP INCREASED DANGER"
+          },
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "x": 167,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warning",
+          "text": {
+            "fixedValue": "WARNING!!!"
+          },
+          "color": {
+            "value": -16777165,
+            "falpha": 0.0
+          },
+          "x": 194,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_institute_is_not_responsible",
+          "text": {
+            "fixedValue": "THE INSTITUTE IS NOT RESPONSIBLE FOR DEATH OR LOSS OF THINGS"
+          },
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "x": 68,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warning1",
+          "text": {
+            "fixedValue": "WARNING!!!"
+          },
+          "color": {
+            "value": -16777165,
+            "falpha": 0.0
+          },
+          "x": 194,
+          "y": 82
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_institute_is_not_responsible1",
+          "text": {
+            "fixedValue": "THE INSTITUTE IS NOT RESPONSIBLE FOR DEATH OR LOSS OF THINGS"
+          },
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "x": 68,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_stop_increased_danger1",
+          "text": {
+            "fixedValue": "STOP INCREASED DANGER"
+          },
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "x": 168,
+          "y": 115
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "SdsUsloviiePokazaNalozhieniia"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

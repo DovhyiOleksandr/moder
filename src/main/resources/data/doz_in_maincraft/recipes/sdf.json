@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doz_in_maincraft:plate_shape"
+    },
+    {
+      "item": "doz_in_maincraft:steel_plate"
+    },
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "result": {
+    "item": "doz_in_maincraft:plate_shape",
+    "count": 1
+  }
+}

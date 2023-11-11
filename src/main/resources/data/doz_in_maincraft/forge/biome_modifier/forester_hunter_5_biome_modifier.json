@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "doz_in_maincraft:creek_forest",
+  "spawners": {
+    "type": "doz_in_maincraft:forester_hunter_5",
+    "weight": 20,
+    "minCount": 2,
+    "maxCount": 6
+  }
+}

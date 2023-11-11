@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "CUSTOM:AluminumPlate"
+      },
+      {
+        "value": "Blocks.LEVER"
+      },
+      {
+        "value": "CUSTOM:AluminumPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AluminumPlate"
+      },
+      {
+        "value": "CUSTOM:AluminumIngot"
+      },
+      {
+        "value": "CUSTOM:AluminumPlate"
+      },
+      {
+        "value": "Items.DYE#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EmptyBalloon"
+    },
+    "name": "dfv",
+    "namespace": "mod"
+  }
+}

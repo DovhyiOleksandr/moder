@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "doz_in_maincraft:block/copper_ore_block",
+    "particle": "doz_in_maincraft:block/copper_ore_block"
+  },
+  "render_type": "solid"
+}

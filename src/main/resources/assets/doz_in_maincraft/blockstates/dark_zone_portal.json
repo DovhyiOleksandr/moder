@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "doz_in_maincraft:block/dark_zone_portal_ew"
+    },
+    "axis=x": {
+      "model": "doz_in_maincraft:block/dark_zone_portal_ns"
+    }
+  }
+}

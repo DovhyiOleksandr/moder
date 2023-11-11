@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doz_in_maincraft:block/zedaa",
+    "up": "doz_in_maincraft:block/zedaa",
+    "north": "doz_in_maincraft:block/zedaa",
+    "east": "doz_in_maincraft:block/fgddd",
+    "south": "doz_in_maincraft:block/zedaa",
+    "west": "doz_in_maincraft:block/fgddd",
+    "particle": "doz_in_maincraft:block/zedaa"
+  },
+  "render_type": "solid"
+}

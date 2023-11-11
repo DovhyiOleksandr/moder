@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "doz_in_maincraft:block/58a1f02ee16f015a3892374b_1",
+    "particle": "doz_in_maincraft:block/58a1f02ee16f015a3892374b_1"
+  },
+  "render_type": "solid"
+}

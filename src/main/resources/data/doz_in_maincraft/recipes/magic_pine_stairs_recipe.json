@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "doz_in_maincraft:magic_pine_planks"
+    },
+    "3": {
+      "item": "doz_in_maincraft:magic_pine_planks"
+    },
+    "4": {
+      "item": "doz_in_maincraft:magic_pine_planks"
+    },
+    "6": {
+      "item": "doz_in_maincraft:magic_pine_planks"
+    },
+    "7": {
+      "item": "doz_in_maincraft:magic_pine_planks"
+    },
+    "8": {
+      "item": "doz_in_maincraft:magic_pine_planks"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:magic_pine_stairs",
+    "count": 4
+  }
+}

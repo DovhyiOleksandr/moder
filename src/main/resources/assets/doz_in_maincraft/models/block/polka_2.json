@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/polka2",
+  "textures": {
+    "all": "doz_in_maincraft:block/polka",
+    "particle": "doz_in_maincraft:block/polka",
+    "0": "doz_in_maincraft:block/polka"
+  },
+  "render_type": "solid"
+}

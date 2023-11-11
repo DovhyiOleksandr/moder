@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "doz_in_maincraft:survivor_armor_set"
+    },
+    "title": {
+      "translate": "advancements.survivors_armor_1.title"
+    },
+    "description": {
+      "translate": "advancements.survivors_armor_1.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "survivors_armor_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "doz_in_maincraft:survivor_armor_set"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "doz_in_maincraft:get_armor"
+}

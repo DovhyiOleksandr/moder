@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/auto_haxta",
+  "textures": {
+    "all": "doz_in_maincraft:block/auto_haxta",
+    "particle": "doz_in_maincraft:block/auto_haxta",
+    "0": "doz_in_maincraft:block/auto_haxta"
+  },
+  "render_type": "solid"
+}

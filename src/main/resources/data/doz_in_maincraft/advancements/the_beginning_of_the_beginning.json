@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "doz_in_maincraft:textures/screens/asasa.png",
+    "icon": {
+      "item": "doz_in_maincraft:fww"
+    },
+    "title": {
+      "translate": "advancements.the_beginning_of_the_beginning.title"
+    },
+    "description": {
+      "translate": "advancements.the_beginning_of_the_beginning.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_beginning_of_the_beginning": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

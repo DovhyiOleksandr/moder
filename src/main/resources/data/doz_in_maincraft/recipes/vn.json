@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "1": {
+      "item": "doz_in_maincraft:steel_plate"
+    },
+    "2": {
+      "item": "minecraft:redstone"
+    },
+    "3": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "4": {
+      "item": "doz_in_maincraft:steal_block"
+    },
+    "5": {
+      "item": "doz_in_maincraft:steal_ingot"
+    },
+    "6": {
+      "item": "doz_in_maincraft:steel_barrel"
+    },
+    "8": {
+      "item": "doz_in_maincraft:steel_barrel"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:engineering_workbench",
+    "count": 1
+  }
+}

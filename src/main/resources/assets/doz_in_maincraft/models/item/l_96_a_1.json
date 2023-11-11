@@ -1,0 +1,7 @@
+{
+  "parent": "doz_in_maincraft:custom/swd",
+  "textures": {
+    "1": "doz_in_maincraft:block/swd",
+    "particle": "doz_in_maincraft:item/swd"
+  }
+}

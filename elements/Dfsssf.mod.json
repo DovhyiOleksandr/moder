@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Chugun"
+      },
+      {
+        "value": "CUSTOM:StabilizerGemini"
+      },
+      {
+        "value": "Blocks.END_ROD"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "CUSTOM:StabilizerStoker"
+      },
+      {
+        "value": "CUSTOM:StabilizerDiode"
+      },
+      {
+        "value": "CUSTOM:Karbon"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "CUSTOM:Chugun"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarkZone"
+    },
+    "name": "dfsssf",
+    "namespace": "mod"
+  }
+}

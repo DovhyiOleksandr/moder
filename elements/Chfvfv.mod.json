@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.STAINED_GLASS_PANE"
+      },
+      {
+        "value": "CUSTOM:SymbioticUlcer"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS_PANE"
+      },
+      {
+        "value": "Blocks.STONE_BUTTON"
+      },
+      {
+        "value": "CUSTOM:SymbioticUlcer"
+      },
+      {
+        "value": "Blocks.STONE_BUTTON"
+      },
+      {
+        "value": "CUSTOM:SteelPlate"
+      },
+      {
+        "value": "CUSTOM:SymbioticUlcer"
+      },
+      {
+        "value": "CUSTOM:SteelPlate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ExecutionerHeart"
+    },
+    "name": "chfvfv",
+    "namespace": "mod"
+  }
+}

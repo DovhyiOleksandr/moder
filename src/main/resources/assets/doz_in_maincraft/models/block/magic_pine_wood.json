@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "doz_in_maincraft:block/magicpine_log_side",
+    "particle": "doz_in_maincraft:block/magicpine_log_side"
+  },
+  "render_type": "solid"
+}

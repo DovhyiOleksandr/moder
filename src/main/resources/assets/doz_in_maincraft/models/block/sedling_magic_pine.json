@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "doz_in_maincraft:block/sdf",
+    "particle": "doz_in_maincraft:block/sdf"
+  },
+  "render_type": "cutout_mipped"
+}

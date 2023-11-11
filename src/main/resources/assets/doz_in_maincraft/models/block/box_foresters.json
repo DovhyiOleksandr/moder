@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/sunduk_lisnikov",
+  "textures": {
+    "all": "doz_in_maincraft:block/photo_2023-09-03_21-11-14",
+    "particle": "doz_in_maincraft:block/photo_2023-09-03_21-11-14",
+    "0": "doz_in_maincraft:block/photo_2023-09-03_21-11-14"
+  },
+  "render_type": "solid"
+}

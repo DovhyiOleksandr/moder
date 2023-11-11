@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "doz_in_maincraft:block/dd",
+    "particle": "doz_in_maincraft:block/dd"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "DOZ_Survival",
+    "icon": {
+      "value": "CUSTOM:Fww"
+    },
+    "showSearch": true
+  }
+}

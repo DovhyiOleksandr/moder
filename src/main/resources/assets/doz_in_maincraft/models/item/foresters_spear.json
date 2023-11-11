@@ -1,0 +1,7 @@
+{
+  "parent": "doz_in_maincraft:custom/kopy",
+  "textures": {
+    "0": "doz_in_maincraft:block/lshchzn",
+    "particle": "doz_in_maincraft:item/lshchzn"
+  }
+}

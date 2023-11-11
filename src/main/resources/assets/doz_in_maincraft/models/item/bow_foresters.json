@@ -1,0 +1,7 @@
+{
+  "parent": "doz_in_maincraft:custom/luk",
+  "textures": {
+    "0": "doz_in_maincraft:block/luk",
+    "particle": "doz_in_maincraft:item/luk"
+  }
+}

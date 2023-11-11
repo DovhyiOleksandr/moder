@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doz_in_maincraft:tin_ingot"
+    }
+  ],
+  "result": {
+    "item": "doz_in_maincraft:piece_tin",
+    "count": 9
+  }
+}

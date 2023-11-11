@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doz_in_maincraft:block/dfvs",
+    "up": "doz_in_maincraft:block/dfvs",
+    "north": "doz_in_maincraft:block/dfvs",
+    "east": "doz_in_maincraft:block/dfvs",
+    "south": "doz_in_maincraft:block/dfvs",
+    "west": "doz_in_maincraft:block/dfvs",
+    "particle": "doz_in_maincraft:block/dfvs"
+  },
+  "render_type": "translucent"
+}

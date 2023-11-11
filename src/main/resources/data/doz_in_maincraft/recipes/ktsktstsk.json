@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doz_in_maincraft:p_762atron"
+    },
+    {
+      "item": "doz_in_maincraft:p_762atron"
+    },
+    {
+      "item": "doz_in_maincraft:clip_3"
+    }
+  ],
+  "result": {
+    "item": "doz_in_maincraft:clip_swd",
+    "count": 1
+  }
+}

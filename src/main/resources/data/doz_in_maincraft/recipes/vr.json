@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "doz_in_maincraft:clip_2"
+    },
+    "1": {
+      "item": "doz_in_maincraft:patron_10mm"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:clip_tt",
+    "count": 1
+  }
+}

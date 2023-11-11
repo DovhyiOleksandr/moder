@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "doz_in_maincraft:chugun"
+    },
+    "1": {
+      "item": "doz_in_maincraft:stabilizer_gemini"
+    },
+    "2": {
+      "item": "minecraft:end_rod"
+    },
+    "3": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "4": {
+      "item": "doz_in_maincraft:stabilizer_stoker"
+    },
+    "5": {
+      "item": "doz_in_maincraft:stabilizer_diode"
+    },
+    "6": {
+      "item": "doz_in_maincraft:karbon"
+    },
+    "7": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "8": {
+      "item": "doz_in_maincraft:chugun"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:dark_zone",
+    "count": 1
+  }
+}

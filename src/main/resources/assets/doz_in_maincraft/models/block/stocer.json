@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doz_in_maincraft:block/photo_2023-09-03_21-11-14",
+    "up": "doz_in_maincraft:block/photo_2023-09-03_21-11-14",
+    "north": "doz_in_maincraft:block/photo_2023-09-03_21-11-14",
+    "east": "doz_in_maincraft:block/photo_2023-09-03_21-11-14",
+    "south": "doz_in_maincraft:block/photo_2023-09-03_21-11-14",
+    "west": "doz_in_maincraft:block/photo_2023-09-03_21-11-14",
+    "particle": "doz_in_maincraft:block/photo_2023-09-03_21-11-14"
+  },
+  "render_type": "solid"
+}

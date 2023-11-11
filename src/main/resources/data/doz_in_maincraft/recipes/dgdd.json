@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "doz_in_maincraft:piece_tin"
+    },
+    "2": {
+      "item": "doz_in_maincraft:piece_tin"
+    },
+    "3": {
+      "item": "doz_in_maincraft:piece_tin"
+    },
+    "5": {
+      "item": "doz_in_maincraft:piece_tin"
+    },
+    "7": {
+      "item": "doz_in_maincraft:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:sleeve_762",
+    "count": 4
+  }
+}

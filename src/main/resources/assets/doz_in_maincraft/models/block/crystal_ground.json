@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doz_in_maincraft:block/zcz",
+    "up": "doz_in_maincraft:block/wrr",
+    "north": "doz_in_maincraft:block/sada",
+    "east": "doz_in_maincraft:block/sada",
+    "south": "doz_in_maincraft:block/sada",
+    "west": "doz_in_maincraft:block/sada",
+    "particle": "doz_in_maincraft:block/zcz"
+  },
+  "render_type": "solid"
+}

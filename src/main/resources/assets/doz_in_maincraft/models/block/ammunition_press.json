@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/pres",
+  "textures": {
+    "all": "doz_in_maincraft:block/pres",
+    "particle": "doz_in_maincraft:block/pres",
+    "0": "doz_in_maincraft:block/pres"
+  },
+  "render_type": "solid"
+}

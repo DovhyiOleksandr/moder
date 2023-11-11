@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "doz_in_maincraft:case_shooting_range_4"
+    },
+    "title": {
+      "translate": "advancements.aaaaaaaaa_what.title"
+    },
+    "description": {
+      "translate": "advancements.aaaaaaaaa_what.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aaaaaaaaa_what": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "doz_in_maincraft:case_shooting_range_4"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "doz_in_maincraft:what_are_you_up_to"
+}

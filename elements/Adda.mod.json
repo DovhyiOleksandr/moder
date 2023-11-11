@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SteelBarrel"
+      },
+      {
+        "value": "CUSTOM:MagicPineLog"
+      },
+      {
+        "value": "CUSTOM:StealBlock"
+      },
+      {
+        "value": "CUSTOM:TinIngot"
+      },
+      {
+        "value": "CUSTOM:StealIngot"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "CUSTOM:StealIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WeaponWorkbench"
+    },
+    "name": "adda",
+    "namespace": "mod"
+  }
+}

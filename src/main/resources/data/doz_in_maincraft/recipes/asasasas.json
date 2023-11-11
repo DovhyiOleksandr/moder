@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doz_in_maincraft:healing_mixture"
+    },
+    {
+      "item": "doz_in_maincraft:empty_stimulant"
+    },
+    {
+      "item": "doz_in_maincraft:filler"
+    }
+  ],
+  "result": {
+    "item": "doz_in_maincraft:stimulator",
+    "count": 1
+  }
+}

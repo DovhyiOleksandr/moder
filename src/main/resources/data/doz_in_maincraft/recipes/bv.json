@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:stained_glass_panes"
+    },
+    "2": {
+      "tag": "minecraft:wool"
+    },
+    "3": {
+      "tag": "forge:stained_glass_panes"
+    },
+    "4": {
+      "item": "minecraft:slime_ball"
+    },
+    "5": {
+      "tag": "forge:stained_glass_panes"
+    },
+    "6": {
+      "item": "minecraft:iron_nugget"
+    },
+    "7": {
+      "tag": "forge:stained_glass_panes"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:filler",
+    "count": 1
+  }
+}

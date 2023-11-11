@@ -1,0 +1,49 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "ttsimbiot",
+    "customModelName": "ttsimbiot:default",
+    "name": "Simbiot TT",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Sad"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 700,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "TTSimbiotPriIspolzovaniiStrielkovoghoPriedmieta"
+    },
+    "useCondition": {
+      "name": "TTSimbiotMozhnoIspolzovatDalnoboinyiPriedmiet"
+    },
+    "bulletPower": 2.0,
+    "bulletDamage": 1.5,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "TTSimbiotKoghdaSnariadPopadaietVSushchnost"
+    },
+    "onBulletHitsEntity": {
+      "name": "TTSimbiotKoghdaSnariadPopadaietVSushchnost"
+    }
+  }
+}

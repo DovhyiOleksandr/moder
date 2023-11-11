@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  2",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:emerald"
+    },
+    "3": {
+      "item": "doz_in_maincraft:iron_plates"
+    },
+    "4": {
+      "item": "doz_in_maincraft:iron_plates"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    },
+    "6": {
+      "item": "minecraft:iron_block"
+    },
+    "8": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:armorers_workbench",
+    "count": 1
+  }
+}

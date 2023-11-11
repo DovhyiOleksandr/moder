@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doz_in_maincraft:block/lsdklkf",
+    "up": "doz_in_maincraft:block/lsdklkf",
+    "north": "doz_in_maincraft:block/lsdklkf",
+    "east": "doz_in_maincraft:block/lsdklkf",
+    "south": "doz_in_maincraft:block/lsdklkf",
+    "west": "doz_in_maincraft:block/lsdklkf",
+    "particle": "doz_in_maincraft:block/lsdklkf"
+  },
+  "render_type": "solid"
+}

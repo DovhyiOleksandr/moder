@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/metal",
+  "textures": {
+    "all": "doz_in_maincraft:block/texture",
+    "particle": "doz_in_maincraft:block/texture",
+    "0": "doz_in_maincraft:block/texture"
+  },
+  "render_type": "solid"
+}

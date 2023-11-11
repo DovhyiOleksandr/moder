@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "doz_in_maincraft:block/magicpine_planks",
+    "top": "doz_in_maincraft:block/magicpine_planks",
+    "side": "doz_in_maincraft:block/magicpine_planks"
+  },
+  "render_type": "solid"
+}

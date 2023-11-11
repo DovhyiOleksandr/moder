@@ -1,0 +1,112 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 336,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_stop_increased_danger",
+          "text": {
+            "fixedValue": "STOP INCREASED DANGER"
+          },
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "x": 156,
+          "y": 51
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_stop_increased_danger1",
+          "text": {
+            "fixedValue": "STOP INCREASED DANGER"
+          },
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "x": 155,
+          "y": 139
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warning",
+          "text": {
+            "fixedValue": "WARNING!!!"
+          },
+          "color": {
+            "value": -16777165,
+            "falpha": 0.0
+          },
+          "x": 184,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warning1",
+          "text": {
+            "fixedValue": "WARNING!!!"
+          },
+          "color": {
+            "value": -16777165,
+            "falpha": 0.0
+          },
+          "x": 183,
+          "y": 105
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_institute_is_not_responsible",
+          "text": {
+            "fixedValue": "THE INSTITUTE IS NOT RESPONSIBLE FOR DEATH OR LOSS OF THINGS"
+          },
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "x": 57,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_institute_is_not_responsible1",
+          "text": {
+            "fixedValue": "THE INSTITUTE IS NOT RESPONSIBLE FOR DEATH OR LOSS OF THINGS"
+          },
+          "color": {
+            "value": -13434880,
+            "falpha": 0.0
+          },
+          "x": 57,
+          "y": 119
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

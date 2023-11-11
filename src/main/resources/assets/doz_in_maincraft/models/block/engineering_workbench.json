@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/verstak",
+  "textures": {
+    "all": "doz_in_maincraft:block/verstak",
+    "particle": "doz_in_maincraft:block/verstak",
+    "0": "doz_in_maincraft:block/verstak"
+  },
+  "render_type": "solid"
+}

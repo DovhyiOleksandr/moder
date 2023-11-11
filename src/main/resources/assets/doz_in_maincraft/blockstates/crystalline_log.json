@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "doz_in_maincraft:block/crystalline_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "doz_in_maincraft:block/crystalline_log"
+    },
+    "axis=z": {
+      "model": "doz_in_maincraft:block/crystalline_log",
+      "x": 90
+    }
+  }
+}

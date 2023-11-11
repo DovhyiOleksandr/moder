@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/gunworkbenhc",
+  "textures": {
+    "all": "doz_in_maincraft:block/tank",
+    "particle": "doz_in_maincraft:block/tank",
+    "0": "doz_in_maincraft:block/tank"
+  },
+  "render_type": "solid"
+}

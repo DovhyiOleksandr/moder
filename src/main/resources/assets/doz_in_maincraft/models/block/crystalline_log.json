@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doz_in_maincraft:block/crystalline_log_top",
+    "up": "doz_in_maincraft:block/crystalline_log_top",
+    "north": "doz_in_maincraft:block/crystalline_log_side",
+    "east": "doz_in_maincraft:block/crystalline_log_side",
+    "south": "doz_in_maincraft:block/crystalline_log_side",
+    "west": "doz_in_maincraft:block/crystalline_log_side",
+    "particle": "doz_in_maincraft:block/crystalline_log_top"
+  },
+  "render_type": "solid"
+}

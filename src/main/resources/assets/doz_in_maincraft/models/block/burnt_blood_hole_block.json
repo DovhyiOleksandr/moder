@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doz_in_maincraft:block/xca",
+    "up": "doz_in_maincraft:block/xca",
+    "north": "doz_in_maincraft:block/xca",
+    "east": "doz_in_maincraft:block/xca",
+    "south": "doz_in_maincraft:block/xca",
+    "west": "doz_in_maincraft:block/xca",
+    "particle": "doz_in_maincraft:block/xca"
+  },
+  "render_type": "solid"
+}

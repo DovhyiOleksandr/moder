@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:case_shooting_range_2",
+    "count": 1
+  }
+}

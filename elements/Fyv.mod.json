@@ -1,0 +1,307 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_auto_miner",
+          "text": {
+            "fixedValue": "auto miner"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "safs.png",
+          "use1Xscale": false,
+          "x": 124,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "safs.png",
+          "use1Xscale": false,
+          "x": 288,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "safs.png",
+          "use1Xscale": false,
+          "x": 124,
+          "y": 108
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "safs.png",
+          "use1Xscale": false,
+          "x": 287,
+          "y": 108
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 203,
+          "y": 59
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "addaa.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A1"
+          },
+          "x": 180,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A2"
+          },
+          "x": 181,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A3"
+          },
+          "x": 181,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A4"
+          },
+          "x": 180,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A5"
+          },
+          "x": 180,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A6"
+          },
+          "x": 180,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A7"
+          },
+          "x": 181,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A8"
+          },
+          "x": 181,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A9"
+          },
+          "x": 181,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A10"
+          },
+          "x": 180,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A11"
+          },
+          "x": 180,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A12"
+          },
+          "x": 180,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A13"
+          },
+          "x": 181,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A14"
+          },
+          "x": 180,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A15"
+          },
+          "x": 180,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a15.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A16"
+          },
+          "x": 180,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a16.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A17"
+          },
+          "x": 181,
+          "y": 97
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a17.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "A18"
+          },
+          "x": 180,
+          "y": 97
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

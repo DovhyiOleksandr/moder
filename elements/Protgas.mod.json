@@ -1,0 +1,12 @@
+{
+  "_fv": 47,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "N",
+    "keyBindingName": "recharging the gas mask",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "ProtgasPriNazhatiiKlavishi"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "doz_in_maincraft:custom/dfffs",
+  "textures": {
+    "missing": "doz_in_maincraft:block/magnum",
+    "particle": "doz_in_maincraft:item/magnum"
+  }
+}

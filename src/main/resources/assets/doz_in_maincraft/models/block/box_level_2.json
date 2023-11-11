@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/tier2",
+  "textures": {
+    "all": "doz_in_maincraft:block/tier2",
+    "particle": "doz_in_maincraft:block/tier2",
+    "1": "doz_in_maincraft:block/tier2"
+  },
+  "render_type": "solid"
+}

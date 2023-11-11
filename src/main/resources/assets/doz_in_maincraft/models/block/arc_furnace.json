@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/duhaway_pech",
+  "textures": {
+    "all": "doz_in_maincraft:block/zusr",
+    "particle": "doz_in_maincraft:block/zusr",
+    "0": "doz_in_maincraft:block/zusr"
+  },
+  "render_type": "solid"
+}

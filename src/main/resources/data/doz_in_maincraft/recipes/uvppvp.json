@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_block"
+    },
+    "1": {
+      "item": "doz_in_maincraft:steal_block"
+    },
+    "2": {
+      "item": "minecraft:redstone_block"
+    },
+    "3": {
+      "item": "doz_in_maincraft:steel_plate"
+    },
+    "4": {
+      "item": "doz_in_maincraft:iron_plates"
+    },
+    "5": {
+      "item": "doz_in_maincraft:steel_plate"
+    },
+    "6": {
+      "item": "minecraft:iron_block"
+    },
+    "7": {
+      "item": "doz_in_maincraft:copper_ingot"
+    },
+    "8": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:ammunition_press",
+    "count": 1
+  }
+}

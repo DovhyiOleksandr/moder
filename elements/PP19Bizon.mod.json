@@ -1,0 +1,43 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "pp19",
+    "customModelName": "bison1:default",
+    "name": "PP19 Bizon",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Sad"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 6000,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "PP19BizonPriIspolzovaniiStrielkovoghoPriedmieta"
+    },
+    "useCondition": {
+      "name": "PP19BizonMozhnoIspolzovatDalnoboinyiPriedmiet"
+    },
+    "bulletPower": 2.5,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

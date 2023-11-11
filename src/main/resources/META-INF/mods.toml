@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="Public Domain"
+
+[[mods]]
+modId="doz_in_maincraft"
+version="1.0.0"
+displayName="DOZ_in_Maincraft"
+credits="п"
+displayURL="https://mcreator.net"
+authors="apple man, MCreator"
+
+[[dependencies.doz_in_maincraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

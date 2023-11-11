@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doz_in_maincraft:block/energyframework",
+    "up": "doz_in_maincraft:block/energyframework",
+    "north": "doz_in_maincraft:block/energyframework",
+    "east": "doz_in_maincraft:block/energyframework",
+    "south": "doz_in_maincraft:block/energyframework",
+    "west": "doz_in_maincraft:block/energyframework",
+    "particle": "doz_in_maincraft:block/energyframework"
+  },
+  "render_type": "solid"
+}

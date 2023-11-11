@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "doz_in_maincraft:aluminum_ingot"
+    },
+    "1": {
+      "item": "doz_in_maincraft:aluminum_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:aluminum_hoe",
+    "count": 1
+  }
+}
