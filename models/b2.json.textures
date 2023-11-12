@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "ekretarmor.layer_2"
+      },
+      "name": "default"
+    }
+  }
+}

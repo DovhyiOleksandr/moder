@@ -39,6 +39,7 @@ import net.mcreator.doz_in_maincraft.client.model.Modelgul2;
 import net.mcreator.doz_in_maincraft.client.model.Modelgul1;
 import net.mcreator.doz_in_maincraft.client.model.Modelgul0;
 import net.mcreator.doz_in_maincraft.client.model.Modelfak;
+import net.mcreator.doz_in_maincraft.client.model.Modelaaa;
 import net.mcreator.doz_in_maincraft.client.model.ModelZveryLysa;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -61,6 +62,7 @@ public class DozInMaincraftModModels {
 		event.registerLayerDefinition(Modeltuha.LAYER_LOCATION, Modeltuha::createBodyLayer);
 		event.registerLayerDefinition(Modelы1.LAYER_LOCATION, Modelы1::createBodyLayer);
 		event.registerLayerDefinition(Modeloplot_tulovish.LAYER_LOCATION, Modeloplot_tulovish::createBodyLayer);
+		event.registerLayerDefinition(Modelaaa.LAYER_LOCATION, Modelaaa::createBodyLayer);
 		event.registerLayerDefinition(Modelgul2.LAYER_LOCATION, Modelgul2::createBodyLayer);
 		event.registerLayerDefinition(Modelnachalka4.LAYER_LOCATION, Modelnachalka4::createBodyLayer);
 		event.registerLayerDefinition(ModelZveryLysa.LAYER_LOCATION, ModelZveryLysa::createBodyLayer);

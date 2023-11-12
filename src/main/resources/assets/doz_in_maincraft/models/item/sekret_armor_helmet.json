@@ -1,0 +1,7 @@
+{
+  "parent": "doz_in_maincraft:custom/b1",
+  "textures": {
+    "missing": "doz_in_maincraft:block/ekretarmor.layer_2",
+    "particle": "doz_in_maincraft:item/ekretarmor.layer_2"
+  }
+}

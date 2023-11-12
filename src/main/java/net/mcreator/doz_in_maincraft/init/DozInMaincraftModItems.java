@@ -38,6 +38,7 @@ import net.mcreator.doz_in_maincraft.item.StabilizerGeminiItem;
 import net.mcreator.doz_in_maincraft.item.StabilizerDiodeItem;
 import net.mcreator.doz_in_maincraft.item.Sleeve762Item;
 import net.mcreator.doz_in_maincraft.item.Sleeve10MmItem;
+import net.mcreator.doz_in_maincraft.item.SekretArmorItem;
 import net.mcreator.doz_in_maincraft.item.SeedlingMagicPineItem;
 import net.mcreator.doz_in_maincraft.item.SPAS12Item;
 import net.mcreator.doz_in_maincraft.item.RevolverDrumItem;
@@ -60,6 +61,7 @@ import net.mcreator.doz_in_maincraft.item.LoadForestersItem;
 import net.mcreator.doz_in_maincraft.item.LeadIngotItem;
 import net.mcreator.doz_in_maincraft.item.LargeBoxFromHozmagItem;
 import net.mcreator.doz_in_maincraft.item.L96A1Item;
+import net.mcreator.doz_in_maincraft.item.KevlarItem;
 import net.mcreator.doz_in_maincraft.item.KarbonItem;
 import net.mcreator.doz_in_maincraft.item.IronPlatesItem;
 import net.mcreator.doz_in_maincraft.item.HugeBoxFromHozmagItem;
@@ -351,6 +353,11 @@ public class DozInMaincraftModItems {
 	public static final RegistryObject<Item> STOCER = block(DozInMaincraftModBlocks.STOCER);
 	public static final RegistryObject<Item> AUTO_MINER = block(DozInMaincraftModBlocks.AUTO_MINER);
 	public static final RegistryObject<Item> BET = block(DozInMaincraftModBlocks.BET);
+	public static final RegistryObject<Item> SEKRET_ARMOR_HELMET = REGISTRY.register("sekret_armor_helmet", () -> new SekretArmorItem.Helmet());
+	public static final RegistryObject<Item> SEKRET_ARMOR_CHESTPLATE = REGISTRY.register("sekret_armor_chestplate", () -> new SekretArmorItem.Chestplate());
+	public static final RegistryObject<Item> SEKRET_ARMOR_LEGGINGS = REGISTRY.register("sekret_armor_leggings", () -> new SekretArmorItem.Leggings());
+	public static final RegistryObject<Item> SEKRET_ARMOR_BOOTS = REGISTRY.register("sekret_armor_boots", () -> new SekretArmorItem.Boots());
+	public static final RegistryObject<Item> KEVLAR = REGISTRY.register("kevlar", () -> new KevlarItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

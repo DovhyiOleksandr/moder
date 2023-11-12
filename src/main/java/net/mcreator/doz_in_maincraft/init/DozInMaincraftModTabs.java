@@ -245,6 +245,11 @@ public class DozInMaincraftModTabs {
 					tabData.accept(DozInMaincraftModBlocks.STOCER.get().asItem());
 					tabData.accept(DozInMaincraftModBlocks.AUTO_MINER.get().asItem());
 					tabData.accept(DozInMaincraftModBlocks.BET.get().asItem());
+					tabData.accept(DozInMaincraftModItems.SEKRET_ARMOR_HELMET.get());
+					tabData.accept(DozInMaincraftModItems.SEKRET_ARMOR_CHESTPLATE.get());
+					tabData.accept(DozInMaincraftModItems.SEKRET_ARMOR_LEGGINGS.get());
+					tabData.accept(DozInMaincraftModItems.SEKRET_ARMOR_BOOTS.get());
+					tabData.accept(DozInMaincraftModItems.KEVLAR.get());
 				}).withSearchBar());
 	}
 }
