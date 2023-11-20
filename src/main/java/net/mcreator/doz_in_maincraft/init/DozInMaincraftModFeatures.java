@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import net.minecraft.world.level.levelgen.feature.Feature;
 
+import net.mcreator.doz_in_maincraft.world.features.plants.DarkZoneCrystalFeature;
 import net.mcreator.doz_in_maincraft.world.features.ores.TinOreFeature;
 import net.mcreator.doz_in_maincraft.world.features.ores.NezeriteOreFeature;
 import net.mcreator.doz_in_maincraft.world.features.ores.LeadOreFeature;
@@ -42,4 +43,5 @@ public class DozInMaincraftModFeatures {
 	public static final RegistryObject<Feature<?>> CHUGUN_2 = REGISTRY.register("chugun_2", Chugun2Feature::new);
 	public static final RegistryObject<Feature<?>> CHUGUN_3 = REGISTRY.register("chugun_3", Chugun3Feature::new);
 	public static final RegistryObject<Feature<?>> STOCER_1 = REGISTRY.register("stocer_1", Stocer1Feature::new);
+	public static final RegistryObject<Feature<?>> DARK_ZONE_CRYSTAL = REGISTRY.register("dark_zone_crystal", DarkZoneCrystalFeature::new);
 }

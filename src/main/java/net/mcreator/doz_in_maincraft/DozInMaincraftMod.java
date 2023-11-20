@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModSounds;
+import net.mcreator.doz_in_maincraft.init.DozInMaincraftModPotions;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModMobEffects;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModMenus;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModItems;
@@ -64,7 +65,7 @@ public class DozInMaincraftMod {
 		DozInMaincraftModBlockEntities.REGISTRY.register(bus);
 
 		DozInMaincraftModMobEffects.REGISTRY.register(bus);
-
+		DozInMaincraftModPotions.REGISTRY.register(bus);
 		DozInMaincraftModMenus.REGISTRY.register(bus);
 		DozInMaincraftModFeatures.REGISTRY.register(bus);
 

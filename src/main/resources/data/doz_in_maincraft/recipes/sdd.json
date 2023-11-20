@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone"
+    },
+    "1": {
+      "item": "doz_in_maincraft:stabilizer_gemini"
+    },
+    "2": {
+      "item": "doz_in_maincraft:stabilizer_stoker"
+    },
+    "3": {
+      "item": "doz_in_maincraft:chugun"
+    },
+    "4": {
+      "item": "minecraft:red_dye"
+    },
+    "5": {
+      "item": "doz_in_maincraft:stabilizer_diode"
+    },
+    "6": {
+      "item": "minecraft:blue_dye"
+    },
+    "7": {
+      "item": "doz_in_maincraft:chugun"
+    },
+    "8": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:rescue_beacon",
+    "count": 1
+  }
+}

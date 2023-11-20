@@ -39,6 +39,7 @@ import net.mcreator.doz_in_maincraft.client.model.Modelgul2;
 import net.mcreator.doz_in_maincraft.client.model.Modelgul1;
 import net.mcreator.doz_in_maincraft.client.model.Modelgul0;
 import net.mcreator.doz_in_maincraft.client.model.Modelfak;
+import net.mcreator.doz_in_maincraft.client.model.Modeldron;
 import net.mcreator.doz_in_maincraft.client.model.Modelaaa;
 import net.mcreator.doz_in_maincraft.client.model.ModelZveryLysa;
 
@@ -56,6 +57,7 @@ public class DozInMaincraftModModels {
 		event.registerLayerDefinition(Modelы3.LAYER_LOCATION, Modelы3::createBodyLayer);
 		event.registerLayerDefinition(Modellesovik4.LAYER_LOCATION, Modellesovik4::createBodyLayer);
 		event.registerLayerDefinition(Modelы2.LAYER_LOCATION, Modelы2::createBodyLayer);
+		event.registerLayerDefinition(Modeldron.LAYER_LOCATION, Modeldron::createBodyLayer);
 		event.registerLayerDefinition(Modellesovik.LAYER_LOCATION, Modellesovik::createBodyLayer);
 		event.registerLayerDefinition(Modelprotgas1.LAYER_LOCATION, Modelprotgas1::createBodyLayer);
 		event.registerLayerDefinition(Modellesovik3.LAYER_LOCATION, Modellesovik3::createBodyLayer);

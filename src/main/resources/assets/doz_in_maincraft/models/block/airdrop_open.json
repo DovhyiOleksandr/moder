@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/airdrop",
+  "textures": {
+    "all": "doz_in_maincraft:block/drop",
+    "particle": "doz_in_maincraft:block/drop",
+    "0": "doz_in_maincraft:block/drop"
+  },
+  "render_type": "solid"
+}

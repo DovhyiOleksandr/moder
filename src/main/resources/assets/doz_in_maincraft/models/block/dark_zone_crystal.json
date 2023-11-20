@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/kristal",
+  "textures": {
+    "all": "doz_in_maincraft:block/kristal",
+    "particle": "doz_in_maincraft:block/kristal",
+    "0": "doz_in_maincraft:block/kristal"
+  },
+  "render_type": "cutout"
+}

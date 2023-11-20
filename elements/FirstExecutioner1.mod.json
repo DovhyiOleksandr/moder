@@ -96,6 +96,9 @@
     "stepSound": {
       "value": ""
     },
+    "onInitialSpawn": {
+      "name": "FirstExecutionerPriNachalnomPrizyvieSushchnosti"
+    },
     "hasAI": true,
     "aiBase": "Zombie",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
@@ -111,11 +114,18 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
-    "spawningProbability": 20,
+    "spawningCondition": {
+      "name": "FirstExecutioner1UsloviieGienieratsiiSushchnosti"
+    },
+    "spawningProbability": 1,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "the_end"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

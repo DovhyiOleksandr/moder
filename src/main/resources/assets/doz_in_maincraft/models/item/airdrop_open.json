@@ -1,5 +1,5 @@
 {
-  "parent": "doz_in_maincraft:block/will_distort_the_crystals",
+  "parent": "doz_in_maincraft:block/airdrop_open",
   "display": {
     "thirdperson": {
       "rotation": [

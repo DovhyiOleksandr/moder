@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "doz_in_maincraft:crystal_desert",
+    "doz_in_maincraft:crystal_forest"
+  ],
+  "features": "doz_in_maincraft:dark_zone_crystal",
+  "step": "vegetal_decoration"
+}

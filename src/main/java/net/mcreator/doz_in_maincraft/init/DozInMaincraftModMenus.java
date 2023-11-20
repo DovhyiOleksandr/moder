@@ -15,6 +15,7 @@ import net.mcreator.doz_in_maincraft.world.inventory.Tier4Menu;
 import net.mcreator.doz_in_maincraft.world.inventory.Tier3Menu;
 import net.mcreator.doz_in_maincraft.world.inventory.Tier2Menu;
 import net.mcreator.doz_in_maincraft.world.inventory.TftyfyMenu;
+import net.mcreator.doz_in_maincraft.world.inventory.SfMenu;
 import net.mcreator.doz_in_maincraft.world.inventory.SdssMenu;
 import net.mcreator.doz_in_maincraft.world.inventory.HfMenu;
 import net.mcreator.doz_in_maincraft.world.inventory.GrtMenu;
@@ -41,4 +42,5 @@ public class DozInMaincraftModMenus {
 	public static final RegistryObject<MenuType<HfMenu>> HF = REGISTRY.register("hf", () -> IForgeMenuType.create(HfMenu::new));
 	public static final RegistryObject<MenuType<FyvMenu>> FYV = REGISTRY.register("fyv", () -> IForgeMenuType.create(FyvMenu::new));
 	public static final RegistryObject<MenuType<ApaaMenu>> APAA = REGISTRY.register("apaa", () -> IForgeMenuType.create(ApaaMenu::new));
+	public static final RegistryObject<MenuType<SfMenu>> SF = REGISTRY.register("sf", () -> IForgeMenuType.create(SfMenu::new));
 }

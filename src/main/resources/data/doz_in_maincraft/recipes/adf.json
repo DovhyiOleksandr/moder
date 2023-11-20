@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_button"
+    },
+    "1": {
+      "item": "minecraft:potion"
+    },
+    "2": {
+      "item": "minecraft:stone_button"
+    },
+    "3": {
+      "tag": "forge:stained_glass_panes"
+    },
+    "4": {
+      "item": "minecraft:potion"
+    },
+    "5": {
+      "tag": "forge:stained_glass_panes"
+    },
+    "6": {
+      "tag": "minecraft:coals"
+    },
+    "7": {
+      "item": "doz_in_maincraft:steal_ingot"
+    },
+    "8": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "result": {
+    "item": "doz_in_maincraft:cylinder_with_compressed_air",
+    "count": 1
+  }
+}

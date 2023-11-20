@@ -1,13 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "doz_in_maincraft:block/crystalline_leaves",
-    "up": "doz_in_maincraft:block/crystalline_leaves",
-    "north": "doz_in_maincraft:block/crystalline_leaves",
-    "east": "doz_in_maincraft:block/crystalline_leaves",
-    "south": "doz_in_maincraft:block/crystalline_leaves",
-    "west": "doz_in_maincraft:block/crystalline_leaves",
+    "all": "doz_in_maincraft:block/crystalline_leaves",
     "particle": "doz_in_maincraft:block/crystalline_leaves"
-  },
-  "render_type": "solid"
+  }
 }

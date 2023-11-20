@@ -20,6 +20,7 @@ public class DozInMaincraftModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DozInMaincraftModBlocks.MAGIC_PINE_WOOD.get().asItem());
+			tabData.accept(DozInMaincraftModBlocks.DARK_ZONE_CRYSTAL.get().asItem());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
@@ -212,7 +213,6 @@ public class DozInMaincraftModTabs {
 					tabData.accept(DozInMaincraftModBlocks.CRYSTAL_GROUND.get().asItem());
 					tabData.accept(DozInMaincraftModBlocks.CRYSTAL_STONE.get().asItem());
 					tabData.accept(DozInMaincraftModBlocks.CRYSTAL_COBBLESTONE.get().asItem());
-					tabData.accept(DozInMaincraftModBlocks.WILL_DISTORT_THE_CRYSTALS.get().asItem());
 					tabData.accept(DozInMaincraftModBlocks.CRYSTAL_EARTH.get().asItem());
 					tabData.accept(DozInMaincraftModItems.DARK_ZONE.get());
 					tabData.accept(DozInMaincraftModBlocks.ENERGY_FRAMEWORK.get().asItem());
@@ -250,6 +250,15 @@ public class DozInMaincraftModTabs {
 					tabData.accept(DozInMaincraftModItems.SEKRET_ARMOR_LEGGINGS.get());
 					tabData.accept(DozInMaincraftModItems.SEKRET_ARMOR_BOOTS.get());
 					tabData.accept(DozInMaincraftModItems.KEVLAR.get());
+					tabData.accept(DozInMaincraftModItems.TITANIUM_PLATES.get());
+					tabData.accept(DozInMaincraftModItems.DRON_SPAWN_EGG.get());
+					tabData.accept(DozInMaincraftModItems.RESCUE_BEACON.get());
+					tabData.accept(DozInMaincraftModBlocks.AIRDROP.get().asItem());
+					tabData.accept(DozInMaincraftModBlocks.AIRDROP_OPEN.get().asItem());
+					tabData.accept(DozInMaincraftModItems.NYLON_FABRIC.get());
+					tabData.accept(DozInMaincraftModItems.OBJECT_DIODE_SPAWN_EGG.get());
+					tabData.accept(DozInMaincraftModItems.DARK_CRYSTAL.get());
+					tabData.accept(DozInMaincraftModItems.SPECIAL_FORCES_COMMUNICATOR.get());
 				}).withSearchBar());
 	}
 }

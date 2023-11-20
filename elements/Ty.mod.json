@@ -1,0 +1,20 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "special squad",
+    "icon": "sd.png",
+    "color": {
+      "value": -13421824,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onExpired": {
+      "name": "TyPriIstiechieniiEffiekta"
+    }
+  }
+}

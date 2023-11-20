@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "doz_in_maincraft:item/efw"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damaged": 1
+      },
+      "model": "doz_in_maincraft:item/dark_crystal_0"
+    }
+  ]
+}

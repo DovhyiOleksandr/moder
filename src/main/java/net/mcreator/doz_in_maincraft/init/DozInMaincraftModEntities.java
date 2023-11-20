@@ -22,6 +22,7 @@ import net.mcreator.doz_in_maincraft.entity.SPAS12Entity;
 import net.mcreator.doz_in_maincraft.entity.RisingExecutionerEntity;
 import net.mcreator.doz_in_maincraft.entity.PP19BizonEntity;
 import net.mcreator.doz_in_maincraft.entity.ObjectStokerEntity;
+import net.mcreator.doz_in_maincraft.entity.ObjectDiodeEntity;
 import net.mcreator.doz_in_maincraft.entity.MagnumEntity;
 import net.mcreator.doz_in_maincraft.entity.MGLEntity;
 import net.mcreator.doz_in_maincraft.entity.L96A1Entity;
@@ -37,6 +38,7 @@ import net.mcreator.doz_in_maincraft.entity.ForesterHunter4Entity;
 import net.mcreator.doz_in_maincraft.entity.FirstExecutionerEntity;
 import net.mcreator.doz_in_maincraft.entity.FirstExecutioner2Entity;
 import net.mcreator.doz_in_maincraft.entity.FirstExecutioner1Entity;
+import net.mcreator.doz_in_maincraft.entity.FdgdEntity;
 import net.mcreator.doz_in_maincraft.entity.BrigadierGhulEntity;
 import net.mcreator.doz_in_maincraft.entity.BowForestersEntity;
 import net.mcreator.doz_in_maincraft.entity.BloodyClawEntity;
@@ -155,6 +157,12 @@ public class DozInMaincraftModEntities {
 			EntityType.Builder.<ObjectStokerEntity>of(ObjectStokerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ObjectStokerEntity::new)
 
 					.sized(0.8f, 2f));
+	public static final RegistryObject<EntityType<FdgdEntity>> DRON = register("dron",
+			EntityType.Builder.<FdgdEntity>of(FdgdEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FdgdEntity::new).fireImmune().sized(0.6f, 1f));
+	public static final RegistryObject<EntityType<ObjectDiodeEntity>> OBJECT_DIODE = register("object_diode",
+			EntityType.Builder.<ObjectDiodeEntity>of(ObjectDiodeEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ObjectDiodeEntity::new)
+
+					.sized(0.8f, 2f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -185,6 +193,8 @@ public class DozInMaincraftModEntities {
 			BloodyClawEntity.init();
 			BloodyCarcassEntity.init();
 			ObjectStokerEntity.init();
+			FdgdEntity.init();
+			ObjectDiodeEntity.init();
 		});
 	}
 
@@ -212,5 +222,7 @@ public class DozInMaincraftModEntities {
 		event.put(BLOODY_CLAW.get(), BloodyClawEntity.createAttributes().build());
 		event.put(BLOODY_CARCASS.get(), BloodyCarcassEntity.createAttributes().build());
 		event.put(OBJECT_STOKER.get(), ObjectStokerEntity.createAttributes().build());
+		event.put(DRON.get(), FdgdEntity.createAttributes().build());
+		event.put(OBJECT_DIODE.get(), ObjectDiodeEntity.createAttributes().build());
 	}
 }

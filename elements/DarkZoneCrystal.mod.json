@@ -1,0 +1,251 @@
+{
+  "_fv": 47,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "kristal",
+    "textureBottom": "",
+    "customModelName": "kristal:default",
+    "itemTexture": "",
+    "particleTexture": "kristal",
+    "tintType": "Fog",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "suspiciousStewEffect": "DARKNESS",
+    "suspiciousStewDuration": 35,
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 6.0,
+        "my": 2.90465,
+        "mz": 3.46141,
+        "Mx": 9.8,
+        "My": 10.50465,
+        "Mz": 7.46141,
+        "subtract": false
+      },
+      {
+        "mx": 10.15526,
+        "my": -0.39535,
+        "mz": 6.21668,
+        "Mx": 15.55526,
+        "My": 9.50465,
+        "Mz": 10.01668,
+        "subtract": false
+      },
+      {
+        "mx": 5.60171,
+        "my": 7.42267,
+        "mz": 6.01668,
+        "Mx": 5.60171,
+        "My": 11.72267,
+        "Mz": 10.21668,
+        "subtract": false
+      },
+      {
+        "mx": 5.60171,
+        "my": 7.42267,
+        "mz": 6.01668,
+        "Mx": 9.60171,
+        "My": 11.72267,
+        "Mz": 6.01668,
+        "subtract": false
+      },
+      {
+        "mx": 5.60171,
+        "my": 11.72267,
+        "mz": 6.01668,
+        "Mx": 9.60171,
+        "My": 11.72267,
+        "Mz": 10.21668,
+        "subtract": false
+      },
+      {
+        "mx": 8.24748,
+        "my": -0.67733,
+        "mz": 6.01668,
+        "Mx": 8.24748,
+        "My": 11.72267,
+        "Mz": 10.21668,
+        "subtract": false
+      },
+      {
+        "mx": 4.24748,
+        "my": -0.97733,
+        "mz": 10.21668,
+        "Mx": 8.24748,
+        "My": 11.72267,
+        "Mz": 10.21668,
+        "subtract": false
+      },
+      {
+        "mx": 4.24748,
+        "my": -0.97733,
+        "mz": 6.01668,
+        "Mx": 8.24748,
+        "My": 11.72267,
+        "Mz": 6.01668,
+        "subtract": false
+      },
+      {
+        "mx": 4.24748,
+        "my": 11.72267,
+        "mz": 6.01668,
+        "Mx": 8.24748,
+        "My": 11.72267,
+        "Mz": 10.21668,
+        "subtract": false
+      },
+      {
+        "mx": 4.24748,
+        "my": -0.97733,
+        "mz": 6.01668,
+        "Mx": 4.24748,
+        "My": 5.82267,
+        "Mz": 10.21668,
+        "subtract": false
+      },
+      {
+        "mx": 5.60171,
+        "my": 7.42267,
+        "mz": 10.21668,
+        "Mx": 9.60171,
+        "My": 11.72267,
+        "Mz": 10.21668,
+        "subtract": false
+      },
+      {
+        "mx": 6.82459,
+        "my": 11.98418,
+        "mz": 10.21668,
+        "Mx": 7.02459,
+        "My": 12.28418,
+        "Mz": 10.21668,
+        "subtract": false
+      },
+      {
+        "mx": 6.82459,
+        "my": 11.98418,
+        "mz": 6.01668,
+        "Mx": 7.02459,
+        "My": 12.28418,
+        "Mz": 6.01668,
+        "subtract": false
+      },
+      {
+        "mx": 6.82459,
+        "my": 12.28418,
+        "mz": 6.01668,
+        "Mx": 7.02459,
+        "My": 12.28418,
+        "Mz": 10.21668,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 0.72433,
+        "mz": 9.52288,
+        "Mx": 9.0,
+        "My": 10.82433,
+        "Mz": 13.52288,
+        "subtract": false
+      },
+      {
+        "mx": 2.79379,
+        "my": 1.52433,
+        "mz": 6.61668,
+        "Mx": 10.29379,
+        "My": 5.42433,
+        "Mz": 9.61668,
+        "subtract": false
+      }
+    ],
+    "name": "Dark Zone Crystal",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "BUILDING_BLOCKS"
+    },
+    "hardness": 2.0,
+    "resistance": 3.0,
+    "luminance": 4,
+    "unbreakable": false,
+    "isSolid": true,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "AMETHYST_CLUSTER"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": "CUSTOM:DarkCrystal"
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:CrystalStone"
+      },
+      {
+        "value": "CUSTOM:CrystalCobblestone"
+      },
+      {
+        "value": "CUSTOM:CrystalGround"
+      },
+      {
+        "value": "CUSTOM:CrystalEarth"
+      }
+    ],
+    "placingCondition": {
+      "name": "DarkZoneCrystalDopolnitielnoieUsloviieDobavlieniiarosta"
+    },
+    "isBonemealable": false,
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "CUSTOM:DarkZone"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:CrystalDesert"
+      },
+      {
+        "value": "CUSTOM:CrystalForest"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 18,
+    "generateAtAnyHeight": true,
+    "onTickUpdate": {
+      "name": "DarkZoneCrystalObnovlieniieTika"
+    }
+  }
+}

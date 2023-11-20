@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "doz_in_maincraft:block/asd",
-    "particle": "doz_in_maincraft:block/asd"
-  },
-  "render_type": "translucent"
-}

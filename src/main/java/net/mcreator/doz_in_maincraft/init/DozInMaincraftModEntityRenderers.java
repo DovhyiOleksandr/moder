@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.doz_in_maincraft.client.renderer.RisingExecutionerRenderer;
 import net.mcreator.doz_in_maincraft.client.renderer.ObjectStokerRenderer;
+import net.mcreator.doz_in_maincraft.client.renderer.ObjectDiodeRenderer;
 import net.mcreator.doz_in_maincraft.client.renderer.GhoulRaiderRenderer;
 import net.mcreator.doz_in_maincraft.client.renderer.GhoulBullRenderer;
 import net.mcreator.doz_in_maincraft.client.renderer.GhoulBanditRenderer;
@@ -25,6 +26,7 @@ import net.mcreator.doz_in_maincraft.client.renderer.ForesterHunter4Renderer;
 import net.mcreator.doz_in_maincraft.client.renderer.FirstExecutionerRenderer;
 import net.mcreator.doz_in_maincraft.client.renderer.FirstExecutioner2Renderer;
 import net.mcreator.doz_in_maincraft.client.renderer.FirstExecutioner1Renderer;
+import net.mcreator.doz_in_maincraft.client.renderer.FdgdRenderer;
 import net.mcreator.doz_in_maincraft.client.renderer.BrigadierGhulRenderer;
 import net.mcreator.doz_in_maincraft.client.renderer.BloodyClawRenderer;
 import net.mcreator.doz_in_maincraft.client.renderer.BloodyCarcassRenderer;
@@ -68,5 +70,7 @@ public class DozInMaincraftModEntityRenderers {
 		event.registerEntityRenderer(DozInMaincraftModEntities.BLOODY_CLAW.get(), BloodyClawRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.BLOODY_CARCASS.get(), BloodyCarcassRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.OBJECT_STOKER.get(), ObjectStokerRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.DRON.get(), FdgdRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.OBJECT_DIODE.get(), ObjectDiodeRenderer::new);
 	}
 }

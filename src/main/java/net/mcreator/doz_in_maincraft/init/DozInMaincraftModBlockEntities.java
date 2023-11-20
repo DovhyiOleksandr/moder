@@ -24,6 +24,7 @@ import net.mcreator.doz_in_maincraft.block.entity.AutoMinerBlockEntity;
 import net.mcreator.doz_in_maincraft.block.entity.ArmorersWorkbenchBlockEntity;
 import net.mcreator.doz_in_maincraft.block.entity.ArcFurnaceBlockEntity;
 import net.mcreator.doz_in_maincraft.block.entity.AmmunitionPressBlockEntity;
+import net.mcreator.doz_in_maincraft.block.entity.AirdropOpenBlockEntity;
 import net.mcreator.doz_in_maincraft.DozInMaincraftMod;
 
 public class DozInMaincraftModBlockEntities {
@@ -41,6 +42,7 @@ public class DozInMaincraftModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> AMMUNITION_PRESS = register("ammunition_press", DozInMaincraftModBlocks.AMMUNITION_PRESS, AmmunitionPressBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ARMORERS_WORKBENCH = register("armorers_workbench", DozInMaincraftModBlocks.ARMORERS_WORKBENCH, ArmorersWorkbenchBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> AUTO_MINER = register("auto_miner", DozInMaincraftModBlocks.AUTO_MINER, AutoMinerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> AIRDROP_OPEN = register("airdrop_open", DozInMaincraftModBlocks.AIRDROP_OPEN, AirdropOpenBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

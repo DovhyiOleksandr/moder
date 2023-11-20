@@ -7,10 +7,13 @@ package net.mcreator.doz_in_maincraft.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.doz_in_maincraft.block.WillDistortTheCrystalsBlock;
 import net.mcreator.doz_in_maincraft.block.WeaponWorkbenchBlock;
 import net.mcreator.doz_in_maincraft.block.TinOreBlock;
 import net.mcreator.doz_in_maincraft.block.TinBlockBlock;
@@ -45,6 +48,7 @@ import net.mcreator.doz_in_maincraft.block.FLUEDGLASSBlock;
 import net.mcreator.doz_in_maincraft.block.EngineeringWorkbenchBlock;
 import net.mcreator.doz_in_maincraft.block.EnergyFrameworkBlock;
 import net.mcreator.doz_in_maincraft.block.DarkZonePortalBlock;
+import net.mcreator.doz_in_maincraft.block.DarkZoneCrystalBlock;
 import net.mcreator.doz_in_maincraft.block.CrystallineWoodBlock;
 import net.mcreator.doz_in_maincraft.block.CrystallineSlabBlock;
 import net.mcreator.doz_in_maincraft.block.CrystallinePressurePlateBlock;
@@ -80,6 +84,8 @@ import net.mcreator.doz_in_maincraft.block.ArcFurnaceBlock;
 import net.mcreator.doz_in_maincraft.block.AmmunitionPressBlock;
 import net.mcreator.doz_in_maincraft.block.AluminumOreBlock;
 import net.mcreator.doz_in_maincraft.block.AluminumBlockBlock;
+import net.mcreator.doz_in_maincraft.block.AirdropOpenBlock;
+import net.mcreator.doz_in_maincraft.block.AirdropBlock;
 import net.mcreator.doz_in_maincraft.DozInMaincraftMod;
 
 public class DozInMaincraftModBlocks {
@@ -142,7 +148,6 @@ public class DozInMaincraftModBlocks {
 	public static final RegistryObject<Block> CRYSTAL_GROUND = REGISTRY.register("crystal_ground", () -> new CrystalGroundBlock());
 	public static final RegistryObject<Block> CRYSTAL_STONE = REGISTRY.register("crystal_stone", () -> new CrystalStoneBlock());
 	public static final RegistryObject<Block> CRYSTAL_COBBLESTONE = REGISTRY.register("crystal_cobblestone", () -> new CrystalCobblestoneBlock());
-	public static final RegistryObject<Block> WILL_DISTORT_THE_CRYSTALS = REGISTRY.register("will_distort_the_crystals", () -> new WillDistortTheCrystalsBlock());
 	public static final RegistryObject<Block> CRYSTAL_EARTH = REGISTRY.register("crystal_earth", () -> new CrystalEarthBlock());
 	public static final RegistryObject<Block> DARK_ZONE_PORTAL = REGISTRY.register("dark_zone_portal", () -> new DarkZonePortalBlock());
 	public static final RegistryObject<Block> ENERGY_FRAMEWORK = REGISTRY.register("energy_framework", () -> new EnergyFrameworkBlock());
@@ -154,4 +159,15 @@ public class DozInMaincraftModBlocks {
 	public static final RegistryObject<Block> STOCER = REGISTRY.register("stocer", () -> new StocerBlock());
 	public static final RegistryObject<Block> AUTO_MINER = REGISTRY.register("auto_miner", () -> new AutoMinerBlock());
 	public static final RegistryObject<Block> BET = REGISTRY.register("bet", () -> new BetBlock());
+	public static final RegistryObject<Block> AIRDROP = REGISTRY.register("airdrop", () -> new AirdropBlock());
+	public static final RegistryObject<Block> AIRDROP_OPEN = REGISTRY.register("airdrop_open", () -> new AirdropOpenBlock());
+	public static final RegistryObject<Block> DARK_ZONE_CRYSTAL = REGISTRY.register("dark_zone_crystal", () -> new DarkZoneCrystalBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+			DarkZoneCrystalBlock.blockColorLoad(event);
+		}
+	}
 }

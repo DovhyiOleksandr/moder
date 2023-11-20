@@ -17,6 +17,7 @@ import net.minecraft.client.KeyMapping;
 
 import net.mcreator.doz_in_maincraft.network.ReloardMessage;
 import net.mcreator.doz_in_maincraft.network.ProtgasMessage;
+import net.mcreator.doz_in_maincraft.network.GggMessage;
 import net.mcreator.doz_in_maincraft.DozInMaincraftMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -47,11 +48,25 @@ public class DozInMaincraftModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping GGG = new KeyMapping("key.doz_in_maincraft.ggg", GLFW.GLFW_KEY_U, "key.categories.misc") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				DozInMaincraftMod.PACKET_HANDLER.sendToServer(new GggMessage(0, 0));
+				GggMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(PROTGAS);
 		event.register(RELOARD);
+		event.register(GGG);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -61,6 +76,7 @@ public class DozInMaincraftModKeyMappings {
 			if (Minecraft.getInstance().screen == null) {
 				PROTGAS.consumeClick();
 				RELOARD.consumeClick();
+				GGG.consumeClick();
 			}
 		}
 	}

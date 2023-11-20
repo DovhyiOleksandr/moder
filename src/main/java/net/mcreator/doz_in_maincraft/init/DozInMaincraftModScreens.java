@@ -15,6 +15,7 @@ import net.mcreator.doz_in_maincraft.client.gui.Tier4Screen;
 import net.mcreator.doz_in_maincraft.client.gui.Tier3Screen;
 import net.mcreator.doz_in_maincraft.client.gui.Tier2Screen;
 import net.mcreator.doz_in_maincraft.client.gui.TftyfyScreen;
+import net.mcreator.doz_in_maincraft.client.gui.SfScreen;
 import net.mcreator.doz_in_maincraft.client.gui.SdssScreen;
 import net.mcreator.doz_in_maincraft.client.gui.HfScreen;
 import net.mcreator.doz_in_maincraft.client.gui.GrtScreen;
@@ -43,6 +44,7 @@ public class DozInMaincraftModScreens {
 			MenuScreens.register(DozInMaincraftModMenus.HF.get(), HfScreen::new);
 			MenuScreens.register(DozInMaincraftModMenus.FYV.get(), FyvScreen::new);
 			MenuScreens.register(DozInMaincraftModMenus.APAA.get(), ApaaScreen::new);
+			MenuScreens.register(DozInMaincraftModMenus.SF.get(), SfScreen::new);
 		});
 	}
 }
